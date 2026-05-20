@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Dr M Amarnath | Oral & Maxillofacial Surgeon</title>
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header>
+    <nav class="navbar">
+
+      <!-- LOGO -->
+      <div class="logo">
+        Dr <span>M Amarnath</span>
+      </div>
+
+      <!-- NAVIGATION -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <!-- APPOINTMENT BUTTON -->
+      <a href="#" class="appointment-btn">
+        Book Appointment
+      </a>
+
+      <!-- MOBILE MENU -->
+      <div class="menu-toggle" id="menuToggle">
+        ☰
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+
+  <section class="hero">
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-content">
+
+      <p class="hero-subtitle">
+        Advanced Oral & Maxillofacial Surgery
+      </p>
+
+      <h1>
+        Dr M Amarnath
+      </h1>
+
+      <h3 class="doctor-role">
+        Consultant Oral & Maxillofacial Surgeon
+      </h3>
+
+      <p class="hero-description">
+        Specialized surgical care focused on facial trauma,
+        dental implants, jaw correction, reconstructive procedures,
+        and advanced oral surgery at Vadamalayan Hospital.
+      </p>
+
+      <!-- BUTTONS -->
+      <div class="hero-buttons">
+
+        <a href="#" class="primary-btn">
+          Book Appointment
+        </a>
+
+        <a href="#" class="secondary-btn">
+          Explore Services
+        </a>
+
+      </div>
+
+      <!-- STATS -->
+      <div class="hero-stats">
+
+        <div class="stat-box">
+          <h2>15+</h2>
+          <p>Years Experience</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>5000+</h2>
+          <p>Successful Procedures</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>24/7</h2>
+          <p>Patient Support</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="hero-image">
+
+      <div class="image-circle"></div>
+
+      <!-- DOCTOR IMAGE -->
+      <img src="doctor.png" alt="Dr M Amarnath">
+
+    </div>
+
+  </section>
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script>
+
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+  </script>
+
+</body>
+
+</html>
